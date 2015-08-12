@@ -7,7 +7,7 @@ Tested up to: 4.2.3
 A plugin that allows you to post custom locations in a widget that displays featured images, and text titles for the articles you have written on your selected places.
 
 == Description ==
-This plugin allows you to designate custom locations as well as display them at the forefront of your pages in a stylized widget.  In your dashboard, you will see a new option available underneath \'posts\'.  This new option, \'locations\' allows you to designate the custom locations you want featured on your site.  Essentially, this will take you to a page to write your article, similar to a post, but the published posts will be usable for other functions and features covered by the plugin.  Categorizing your posts, adding tags, and adding featured images are strongly recommended to make the most of this plugin\'s functionality.
+This plugin allows you to designate custom locations as well as display them at the forefront of your pages in a stylized widget.  In your dashboard, you will see a new option available underneath \'posts\'.  This new option, \'locations\' allows you to designate the custom locations you want featured on your site.  Essentially, this will take you to a page to write your article, similar to a post, but the published posts will be usable for other functions and features covered by the plugin.  Categorizing your posts, adding tags, and adding featured images are strongly recommended to make the most of this plugin\'s functionality. It is easy to crate a custom excerpt for the custom post. Simply add your excerpt in the text field specified under the main post text area. Disable comments by deselecting the comments box in the discussion section.
 
 With all of your content written together, you can create your own widget in the page\'s sidebar.  Go to dashboard > appearance > widgets.  There you can add the \'Locations Widget\'.  Along with a custom name you can set, you can designate the number of locations you want visible in the widget.  When you save the changes, the number of most recent locations (which you selected in the widget options) will be visible as a thumbnail and a clickable title link which will redirect the user to the article. 
 
@@ -28,7 +28,12 @@ At this point, the plugin will be live and active!
 == Frequently Asked Questions ==
 Q:My locations show no images on my site.
 
-A: Did you make sure that you set a \'Featured Image\' when you wrote the location\'s article.  If not, just click any title to be brought to the article.  At the top, in your dashboard, you should be able to see an \'edit post\' button.  Clicking this option will allow you to return to editing the article.  Scroll to the bottom, and to the right you can see the option to add a featured image.  
+	A: Did you make sure that you set a \'Featured Image\' when you wrote the location\'s article.  If not, just click any title to be brought to the article.  At the top, in your dashboard, you should be able to see an \'edit post\' button.  Clicking this option will allow you to return to editing the article.  Scroll to the bottom, and to the right you can see the option to add a featured image.  
+
+Q: None of my links to the custom post are working?
+	
+	A: In the WP dashboard navigate to Settings\Permalinks, Do not make any changes, simply hit save changes and your links should be fixed. 
+	
 
 == Changelog ==
 Version 0.5 (Testing version): August 6th, 2015
